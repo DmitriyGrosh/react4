@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+}
+.box {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line > input {
+  width: 100%;
+}
